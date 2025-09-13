@@ -1,0 +1,41 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#buttonGroup{
+    text-align: center;    
+}
+
+#counterText{
+    font-family: "Press Start 2P", "system-ui";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button{
+    font-family: "Press Start 2P", "system-ui";
+   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    border-style: outset;
+    margin: 2px
+}
+
+button:active{
+    border-style: inset;
+}
+
+#numberIncrease:hover{
+    background-color: rgb(43, 249, 2);
+}
+
+#numberDecrease:hover{
+    background-color: red;
+}
+
+#numberReset:hover{
+    background-color: maroon;
+}
